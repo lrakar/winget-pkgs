@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.12.0.schema.json
 
 PackageIdentifier: PUTLAB.VinPUT
-PackageVersion: 0.2.1
+PackageVersion: 0.3.4
 PackageLocale: en-US
 Publisher: PUTLAB
 PublisherUrl: https://vinput-dasvcr.web.app
@@ -20,11 +20,10 @@ Tags:
 - voice-typing
 - whisper
 ReleaseNotes: |-
-  - Listed as VinPUT under Installed apps, with its icon
-  - Uninstall also removes the bridges program and its startup entry
-  - Silent uninstall for package managers
-  - Local models keep to the languages you set
-  - Documentation and release notes are on the site
+  - Escape cancels a dictation: nothing is typed, also while it is still being recognized
+  - Voice memos are saved at a normal listening volume, however softly the microphone records
+  - Voice memos play in every player
+  - Silent install for package managers shows no window and finishes at once
 ReleaseNotesUrl: https://vinput-dasvcr.web.app/changelog
 ManifestType: defaultLocale
 ManifestVersion: 1.12.0
